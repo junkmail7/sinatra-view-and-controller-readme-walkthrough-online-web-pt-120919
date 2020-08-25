@@ -19,6 +19,8 @@ class App < Sinatra::Base
   end
 
   get '/test' do
+    @friendss = ['Emily Wilding Davison', 'Harriet Tubman', 'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
+
     erb :test
   end
 end
