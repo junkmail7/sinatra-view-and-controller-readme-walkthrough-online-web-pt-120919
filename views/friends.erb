@@ -2,16 +2,14 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>The Ultimate Reversed String!</title>
+    <title>My Super Cool Friends List</title>
     <link rel="stylesheet" href="stylesheets/style.css" type="text/css">
   </head>
 
   <body>
-    <h1>The Ultimate Reversed String!</h1>
-    <% @friendss.each do |name| %>
-        <h2><%= name %></h2>
-    <% end %>
-    <!--   Use ERB tags to bring in an instance variable containing the reversed string -->
-    <h2>YOU WIN!!!</h2>
+    <h1>My Super Cool Friends List</h1>
+    <% @friends.each do |friend| %>
+      <h2><%= friend %></h2>
+  <% end %>
   </body>
 </html>
